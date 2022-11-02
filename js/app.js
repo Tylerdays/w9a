@@ -2,7 +2,7 @@ let userage = 18;
 var isSubscribed
 
 isSubscribed = false;
-
+// Subscription and age verification. 
 if (userage >= 21 && (isSubscribed == true)){
     console.log("User is old enough and subcribed");
     } else if ((userage >=21) &&(isSubscribed == false)) {
